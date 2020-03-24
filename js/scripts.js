@@ -1,19 +1,20 @@
 $(document).ready(function() {
   $("p").click(function() {
     $("img").show();
+    $("img").fadeIn();
   });
 });
 
 $(document).ready(function() {
   $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+    $("#walrus-showing").fadeToggle();
+    $("#walrus-hidden").fadeToggle(); 
   });
 });
 
 $(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#walrus2-showing").toggle();
-    $("#walrus2-hidden").toggle();
+  $(".clickable2").click(function() {
+    $("#walrus2-showing").fadeToggle();
+    $("#walrus2-hidden").fadeToggle();
   });
 });
