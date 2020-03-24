@@ -5,8 +5,15 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $("p").click(function() {
-    $(".walrus-showing").toggle();
-    $(".walrus-hidden").toggle();
+  $(".clickable").click(function() {
+    $("#walrus-showing").toggle();
+    $("#walrus-hidden").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $("#walrus2-showing").toggle();
+    $("#walrus2-hidden").toggle();
   });
 });
